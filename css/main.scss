@@ -379,3 +379,55 @@ font-size: 18px;
         }
     }
 }
+.expertises{
+    background-color: #F0F2F1;
+      .container{
+          .expertises__title{
+              text-align: center;
+                  h1{
+                      font-size: 30px;
+                      font-weight: 600;
+                      color: #000;
+                      padding: 100px 0 20px 0;
+
+                  }
+                  p{
+                      margin: 0 auto;
+                      width: 40%;
+                      margin-bottom: 40px;
+                  }
+          }
+          .boxs{
+             
+              width: 80%;
+              text-align: center;
+              
+              margin: 0 auto;
+              background-color: #fff;
+              box-shadow: 0 0 10px solid #000;
+                 .box{
+                    width: 32%;
+                    padding: 40px 30px;
+                      h2{
+                        font-size: 20px;
+                        font-weight: 600;
+
+                      }
+                      p{
+                        font-size: 16px;
+                        line-height: 1.2;
+                        margin: 40px 0;
+                      }
+                      button{
+                        background-color: #fff;
+                        color: #000;
+                        border: 1px solid #000;
+                      }
+                 }
+           
+
+          }
+
+      }
+       
+}
