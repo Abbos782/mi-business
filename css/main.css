@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1490px;
+}
+
+.primary__btn {
+  background-color: #0F1120;
+  padding: 12px 30px;
+  color: #C0C1C5;
+  border: none;
+  border-radius: 20px;
+}
+
+.primary__text {
+  color: #717487;
+  font-size: 18px;
+}
+
+.body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  margin-top: 50px;
+  background-color: #fff;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar .container .list {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .container .list h2 {
+  color: #0F1120;
+}
+
+.navbar .container .list li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0F1120;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.navbar .container .list li a:hover {
+  color: #4086FE;
+}
+
+.navbar .container .link {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navbar .container .link li {
+  margin-left: 40px;
+}
+
+.navbar .container .link li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #0F1120;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.navbar .container .link li a:hover {
+  color: #4086FE;
+}
+
+.hovDoYouDesign {
+  margin-top: 100px;
+}
+
+.hovDoYouDesign .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hovDoYouDesign .container .tarmoq {
+  width: 10%;
+}
+
+.hovDoYouDesign .container .tarmoq ul li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #E8E8E9;
+  margin: 15px 0;
+}
+
+.hovDoYouDesign .container .tarmoq ul li a {
+  color: #1C1C1C;
+}
+
+.hovDoYouDesign .container .tarmoq ul li:hover {
+  background-color: #0F1120;
+}
+
+.hovDoYouDesign .container .tarmoq ul li:hover a:hover {
+  color: #fff;
+}
+
+.hovDoYouDesign .container .hovDoYouDesign__text {
+  width: 50%;
+}
+
+.hovDoYouDesign .container .hovDoYouDesign__text h1 {
+  width: 90%;
+  color: #0F1120;
+  font-size: 54px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hovDoYouDesign .container .hovDoYouDesign__text p {
+  width: 90%;
+  line-height: 1.7;
+  margin: 50px 0;
+}
+
+.hovDoYouDesign .container .hovDoYouDesign__text .scroll {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #E8E8E9;
+  margin-top: 100px;
+}
+
+.hovDoYouDesign .container .hovDoYouDesign__text .scroll a {
+  text-decoration: none;
+  color: #77797F;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.hovDoYouDesign .container .hovDoYouDesign__photo {
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 300px;
+}
+
+.hovDoYouDesign .container .hovDoYouDesign__photo img {
+  width: 100%;
+  margin: 0 auto;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+/*# sourceMappingURL=main.css.map */
