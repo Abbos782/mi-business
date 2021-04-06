@@ -356,7 +356,7 @@ font-size: 18px;
         .sercul{
             position: relative;
                margin: 0;
-              width: 20%;
+            //   width: 100%;
               left: -8%;
              
             .sercul1{
@@ -615,6 +615,44 @@ font-size: 18px;
        }
  }
 }
+@media(max-width:1900px){
+    .container{
+        width: 1800px;
+    }
+    .hovDoYouDesign{
+        .container{
+           
+            .sercul{
+                right: 244px;
+                top: -190px;
+            }
+            .hovDoYouDesign__photo .box .sercul{
+                top: -53%;
+                left: -48%;
+            }
+
+        }
+    }
+   
+    }
+@media(min-width:1800px){
+    .container{
+        width: 1700px;
+    }
+
+.hovDoYouDesign .container .hovDoYouDesign__photo{
+    transform: translateX(-47px);
+}
+   
+    }
+@media(min-width:1700px){
+    .container{
+        width: 1600px;
+    }
+    .hovDoYouDesign .container .hovDoYouDesign__photo{
+        transform: translateX(-92px);
+    }  
+    }
 @media(min-width:1600px){
      .container{
          width: 1500px;

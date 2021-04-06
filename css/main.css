@@ -410,7 +410,6 @@
 .delighting .container .sercul {
   position: relative;
   margin: 0;
-  width: 20%;
   left: -8%;
 }
 
@@ -708,6 +707,40 @@
   font-family: 'Poppins', sans-serif;
   color: #6F6F77;
   font-size: 12px;
+}
+
+@media (max-width: 1900px) {
+  .container {
+    width: 1800px;
+  }
+  .hovDoYouDesign .container .sercul {
+    right: 244px;
+    top: -190px;
+  }
+  .hovDoYouDesign .container .hovDoYouDesign__photo .box .sercul {
+    top: -53%;
+    left: -48%;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container {
+    width: 1700px;
+  }
+  .hovDoYouDesign .container .hovDoYouDesign__photo {
+    -webkit-transform: translateX(-47px);
+            transform: translateX(-47px);
+  }
+}
+
+@media (min-width: 1700px) {
+  .container {
+    width: 1600px;
+  }
+  .hovDoYouDesign .container .hovDoYouDesign__photo {
+    -webkit-transform: translateX(-92px);
+            transform: translateX(-92px);
+  }
 }
 
 @media (min-width: 1600px) {
