@@ -9,7 +9,7 @@
 }
 
 .container {
-  width: 1490px;
+  width: 1250px;
   margin: 0 auto;
 }
 
@@ -205,12 +205,12 @@
 }
 
 .hovDoYouDesign .container .hovDoYouDesign__photo img {
-  width: 100%;
+  width: 460px;
   height: 478px;
   margin: 0 auto;
   background-color: #1777FF;
-  -webkit-transform: translateX(100px);
-          transform: translateX(100px);
+  -webkit-transform: translateX(5.5%);
+          transform: translateX(5.5%);
 }
 
 .hovDoYouDesign .container .hovDoYouDesign__photo .box {
@@ -218,8 +218,8 @@
   width: 120px;
   height: 120px;
   background-color: #0F1120;
-  left: 19.3%;
-  top: 1px;
+  left: 25px;
+  top: 0px;
 }
 
 .hovDoYouDesign .container .hovDoYouDesign__photo .box .sercul {
@@ -252,10 +252,11 @@
 }
 
 .hovDoYouDesign .container .sercul {
+  width: 950px;
   position: absolute;
   z-index: -22;
-  left: 42.5%;
-  top: -25%;
+  right: -20px;
+  top: -190px;
 }
 
 .hovDoYouDesign .container .sercul .line .sercul1 {
@@ -309,7 +310,7 @@
 }
 
 .delighting .container .photos {
-  width: 80%;
+  width: 70%;
 }
 
 .delighting .container .photos .img {
@@ -709,22 +710,19 @@
   font-size: 12px;
 }
 
-@media (max-width: 1600px) {
+@media (min-width: 1600px) {
   .container {
     width: 1500px;
   }
 }
 
-@media (max-width: 1500px) {
+@media (min-width: 1500px) {
   .container {
     width: 1400px;
   }
-  .content {
-    width: 1480px;
-  }
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
   .container {
     width: 1300px;
   }
@@ -739,12 +737,6 @@
   }
   .content {
     width: 1350px;
-  }
-}
-
-@media (max-width: 1350px) {
-  .container {
-    width: 1300px;
   }
 }
 
