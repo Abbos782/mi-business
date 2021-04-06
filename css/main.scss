@@ -381,6 +381,7 @@ font-size: 18px;
 }
 .expertises{
     background-color: #F0F2F1;
+    padding-bottom: 100px;
       .container{
           .expertises__title{
               text-align: center;
@@ -398,31 +399,43 @@ font-size: 18px;
                   }
           }
           .boxs{
-             
               width: 80%;
               text-align: center;
-              
               margin: 0 auto;
               background-color: #fff;
               box-shadow: 0 0 10px solid #000;
+              display: flex;
+              box-shadow: 0 0 10px  rgba(102, 99, 99, 0.7);
                  .box{
                     width: 32%;
                     padding: 40px 30px;
+                      img{
+                          margin: 30px 0;
+                      }
                       h2{
                         font-size: 20px;
                         font-weight: 600;
 
                       }
                       p{
+                          
                         font-size: 16px;
                         line-height: 1.2;
-                        margin: 40px 0;
+                        margin: 10px 10px 50px 10px;
+                        text-align: center;
                       }
                       button{
                         background-color: #fff;
                         color: #000;
                         border: 1px solid #000;
                       }
+                      button:hover{
+                          background-color: #000;
+                          color: #E8E8E9;
+                      }
+                 }
+                 .box:hover{
+                     border-right: 1px solid rgb(102, 99, 99);
                  }
            
 
@@ -430,4 +443,164 @@ font-size: 18px;
 
       }
        
+}
+.content{
+    margin: 0 auto;
+    background-image: url('../img/young-male-florist-working-in-flower-shop-Z5BEPDY.jpg');
+    width: 1700px;
+    height: 950px;
+    background-size: cover;
+    text-align: center;
+   
+    .container{
+           
+        .photo{
+             padding-top: 130px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             opacity: 0.7;
+          
+                .sercul{
+                    border: 1px solid #e6d5cb;
+                    width: 724px;
+                    height: 724px;
+                    margin: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    z-index: 33;
+                        
+                      .sercul1{
+                        //  position: absolute;
+                         border: 1px solid #e6d5cb;
+                         width: 624px;
+                         height: 624px;
+                         margin: 0;
+                         display: flex;
+                         justify-content: center;
+                         align-items: center;
+                         border-radius: 50%;
+                         z-index: 33;
+                          .sercul2{
+                            // position: absolute;
+                            border: 1px solid #e6d5cb;
+                            height:500px;
+                            width: 500px;
+                            border-radius: 50%;
+                            z-index: 33;
+                              text-align: center;
+                             
+                          }
+                      }
+                   }
+        }
+        .text{
+            position:absolute;
+              text-align: center;
+              width: 800px;
+              z-index: 55;
+            h1{
+                
+                text-align: center;
+                // width: 60%;
+                color:#fff;
+                font-size: 54px;
+                font-weight: 700;
+                font-family: 'Poppins', sans-serif;
+              }
+              p{ 
+                  margin: 0 auto;
+                  text-align: center;
+                  margin: 40px 0;
+                  color: #BDBFC2;
+                  font-size: 15px;
+                  margin: 50px;
+                    
+              }
+              button{
+                  margin: 0 auto;
+                  text-align: center;
+                  background-color:#1267FE;
+              }
+        }
+    }
+}
+.footer{
+    .container{
+        .footer__head{
+            display: flex;
+            justify-content: space-between;
+             align-items: center;
+             padding: 30px 0;
+              .list{
+                  width: 40%;
+                   display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                      li{
+                          a{
+                              text-decoration: none;
+                              color: #000;
+                              text-transform: uppercase;
+                              font-weight: 500;
+                              font-family: 'Poppins', sans-serif;
+                              font-size: 15px;
+                          }
+                          a:hover{
+                            color: #1267FE;
+                        }
+                      }
+                    
+              }
+              .tarmoq{
+                 width: 12%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                  li{
+                      a{
+                          color: #000;
+                          font-size: 18px;
+                          font-family: 'Poppins', sans-serif;
+
+                      }
+                      
+                      a:hover{
+                          color: #1267FE;
+                      }
+                  }
+              }
+        }
+        
+    }
+    .footer__bottom{
+        background-color: #0F1120;
+        margin: 30px 0;
+       .container{
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              
+         .logo{
+            margin: 30px 0;
+             h2{
+                 color: #fff;
+                 font-weight: 500;
+                 text-transform: uppercase;
+                 font-family: 'Poppins', sans-serif;
+
+                 
+             }
+             
+         }
+         p{
+            font-family: 'Poppins', sans-serif;
+            color: #6F6F77;
+            font-size: 12px;
+
+         }
+       }
+ }
 }

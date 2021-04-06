@@ -444,6 +444,7 @@
 
 .expertises {
   background-color: #F0F2F1;
+  padding-bottom: 100px;
 }
 
 .expertises .container .expertises__title {
@@ -470,11 +471,20 @@
   background-color: #fff;
   -webkit-box-shadow: 0 0 10px solid #000;
           box-shadow: 0 0 10px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 0 10px rgba(102, 99, 99, 0.7);
+          box-shadow: 0 0 10px rgba(102, 99, 99, 0.7);
 }
 
 .expertises .container .boxs .box {
   width: 32%;
   padding: 40px 30px;
+}
+
+.expertises .container .boxs .box img {
+  margin: 30px 0;
 }
 
 .expertises .container .boxs .box h2 {
@@ -485,12 +495,216 @@
 .expertises .container .boxs .box p {
   font-size: 16px;
   line-height: 1.2;
-  margin: 40px 0;
+  margin: 10px 10px 50px 10px;
+  text-align: center;
 }
 
 .expertises .container .boxs .box button {
   background-color: #fff;
   color: #000;
   border: 1px solid #000;
+}
+
+.expertises .container .boxs .box button:hover {
+  background-color: #000;
+  color: #E8E8E9;
+}
+
+.expertises .container .boxs .box:hover {
+  border-right: 1px solid #666363;
+}
+
+.content {
+  margin: 0 auto;
+  background-image: url("../img/young-male-florist-working-in-flower-shop-Z5BEPDY.jpg");
+  width: 1700px;
+  height: 950px;
+  background-size: cover;
+  text-align: center;
+}
+
+.content .container .photo {
+  padding-top: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0.7;
+}
+
+.content .container .photo .sercul {
+  border: 1px solid #e6d5cb;
+  width: 724px;
+  height: 724px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  z-index: 33;
+}
+
+.content .container .photo .sercul .sercul1 {
+  border: 1px solid #e6d5cb;
+  width: 624px;
+  height: 624px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  z-index: 33;
+}
+
+.content .container .photo .sercul .sercul1 .sercul2 {
+  border: 1px solid #e6d5cb;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  z-index: 33;
+  text-align: center;
+}
+
+.content .container .text {
+  position: absolute;
+  text-align: center;
+  width: 800px;
+  z-index: 55;
+}
+
+.content .container .text h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 54px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content .container .text p {
+  margin: 0 auto;
+  text-align: center;
+  margin: 40px 0;
+  color: #BDBFC2;
+  font-size: 15px;
+  margin: 50px;
+}
+
+.content .container .text button {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #1267FE;
+}
+
+.footer .container .footer__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 0;
+}
+
+.footer .container .footer__head .list {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container .footer__head .list li a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.footer .container .footer__head .list li a:hover {
+  color: #1267FE;
+}
+
+.footer .container .footer__head .tarmoq {
+  width: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container .footer__head .tarmoq li a {
+  color: #000;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer .container .footer__head .tarmoq li a:hover {
+  color: #1267FE;
+}
+
+.footer .footer__bottom {
+  background-color: #0F1120;
+  margin: 30px 0;
+}
+
+.footer .footer__bottom .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .footer__bottom .container .logo {
+  margin: 30px 0;
+}
+
+.footer .footer__bottom .container .logo h2 {
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer .footer__bottom .container p {
+  font-family: 'Poppins', sans-serif;
+  color: #6F6F77;
+  font-size: 12px;
 }
 /*# sourceMappingURL=main.css.map */
