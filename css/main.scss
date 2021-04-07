@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 .container{
-    width: 1250px;
+    width: 1300px;
     margin: 0 auto;
    
 }
@@ -98,7 +98,7 @@ font-size: 18px;
      
     .container{
            display: flex;
-          justify-content: space-between;
+           justify-content: space-between;
       
 
          .tarmoq{
@@ -168,13 +168,13 @@ font-size: 18px;
                 
                 
                 img{
-                    width: 460px;
+                    width: 470px;
                     height: 478px;
                     margin: 0 auto;
                     background-color: #1777FF;
                      
                     
-                    transform: translateX(5.5%);
+                    transform: translateX(-3.5%);
                     
                }
                .box{
@@ -182,7 +182,8 @@ font-size: 18px;
                      width: 120px;
                      height: 120px;
                      background-color: #0F1120;
-                     left: 25px;
+                     display: block;
+                     left: -15px;
 
                      top: 0px;
                      .sercul{
@@ -203,7 +204,7 @@ font-size: 18px;
                    width: 50px;
                    height: 50px;
                    top: 50%;
-                   left: 70%;
+                   left: 45%;
                    bottom: 0;
                    right: 0;
                   
@@ -217,21 +218,21 @@ font-size: 18px;
                .pler:hover{
                 background-color: rgb(194, 93, 26);
                }
-        }
+        
         .sercul{
-            width: 950px;
+            width: 920px;
             position: absolute;
             z-index: -22;
-            right: -20px;
-            top: -190px;
+            right: 2px;
+            top: -457px;
             
            
             .line{
                 
                   .sercul1{
                             border: 1px solid #C0C1C5;
-                            width: 940px;
-                            height: 940px;
+                            width: 920px;
+                            height: 920px;
                             display: flex;
                             justify-content: center;
                             align-items: center;
@@ -266,6 +267,7 @@ font-size: 18px;
            
         }
     }
+    }
 }
 .delighting{
   
@@ -274,21 +276,21 @@ font-size: 18px;
           justify-content: center;
         //   align-items: center;
         .photos{
-            width: 70%;
+            width: 80%;
             .img{
                      background-image: url('../img/teenage-boy-drinking-caffeine-energy-drink-gaming--U75GERZ.jpg');
-                     width: 100%;
+                     width: 950px;
                      height: 945px;
                      background-size: cover;
-                     transform: translateX(-10.5%);
+                     transform: translateX(-30.5%);
                      display: flex;
                      justify-content: center;
                      align-items: center;
-                     padding-left: 100px;
+                    //  padding-left: 100px;
 
                      
                        .text{
-                             width: 25%;
+                          width: 45%;
                            margin-left: 200px;
                             h2{
                                 width: 100%;
@@ -309,7 +311,8 @@ font-size: 18px;
                            position: relative;
                            width: 60%;
                              img{
-                                 width: 100%;
+                                 width: 601px;
+                                 height: 481px;
                                  transform: translateX(40%);
                              }
                              .plus{
@@ -619,65 +622,154 @@ font-size: 18px;
     .container{
         width: 1800px;
     }
-    .hovDoYouDesign{
-        .container{
-           
-            .sercul{
-                right: 244px;
-                top: -190px;
-            }
-            .hovDoYouDesign__photo .box .sercul{
-                top: -53%;
-                left: -48%;
-            }
 
-        }
+    
     }
    
-    }
-@media(min-width:1800px){
+    
+@media(max-width:1800px){
     .container{
         width: 1700px;
     }
-
-.hovDoYouDesign .container .hovDoYouDesign__photo{
-    transform: translateX(-47px);
-}
-   
+    .hovDoYouDesign .container .hovDoYouDesign__photo img{
+        transform: translateX(14.5%);
+       }
+       .hovDoYouDesign .container .hovDoYouDesign__photo .box {
+    
+        left: 130px;
+       
     }
-@media(min-width:1700px){
+
+    .delighting .container .photos .img {
+        width: 950px;
+        height: 945px;
+        transform: translateX(12%);
+       
+      
+    }
+    .delighting .container .photos .img .photo1 .text p {
+        position: absolute;
+        width: 90%;
+        color: #000;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    }
+@media(max-width:1700px){
     .container{
         width: 1600px;
     }
-    .hovDoYouDesign .container .hovDoYouDesign__photo{
-        transform: translateX(-92px);
-    }  
+    .hovDoYouDesign .container .hovDoYouDesign__photo img{
+        transform: translateX(10%);
+       }
+       .hovDoYouDesign .container .hovDoYouDesign__photo .box {
+    
+        left: 92px;
+       
     }
-@media(min-width:1600px){
+    .delighting .container .photos {
+        width: 91%;
+    }
+    .delighting .container .photos .img .photo1 .plus {
+        
+        top: -8px;
+        right: -49.5%;
+       
+    }
+    .delighting .container .sercul {
+        position: relative;
+        margin: 0;
+        left: -22%;
+    }
+    
+    }
+@media(max-width:1600px){
      .container{
          width: 1500px;
      }
+     .hovDoYouDesign .container .hovDoYouDesign__photo img{
+        transform: translateX(6%);
+       }
+       .hovDoYouDesign .container .hovDoYouDesign__photo .box {
+    
+        left: 56px;
+       
+    }
+    .delighting .container .photos .img {
+        
+        transform: translateX(2%);
+      
+    }
+    .delighting .container .photos {
+        width: 91%;
+    }
+    .delighting .container .photos .img .photo1 .plus {
+        
+        top: -8px;
+        right: -49.5%;
+       
+    }
+    .delighting .container .sercul {
+        position: relative;
+        margin: 0;
+        left: -22%;
+    }
     
      }
      
  
  
-@media(min-width:1500px){
+@media(max-width:1500px){
     .container{
       width: 1400px;
+    }
+    .hovDoYouDesign .container .hovDoYouDesign__photo img{
+        transform: translateX(3%);
+       }
+       .hovDoYouDesign .container .hovDoYouDesign__photo .box {
+    
+        left: 23px;
+       
+    }
+    .delighting .container .photos .img {
+        
+        transform: translateX(-8%);
+      
+    }
+    .delighting .container .sercul {
+        position: relative;
+        margin: 0;
+        left: -29%;
+    }
+    .delighting .container .photos .img .photo1 img {
+      
+        transform: translateX(34%);
+    }
+    .delighting .container .photos .img .photo1 .plus {
+        top: -8px;
+        right: -43.5%;
     }
    
      
  
  }
- @media(min-width:1400px){
+ @media(max-width:1400px){
      .container{
        width: 1300px;
       }
       .content{
         width:1380px;   
     }
-  
+    .hovDoYouDesign .container .hovDoYouDesign__photo img{
+        transform: translateX(-0.5%);
+       }
+       .hovDoYouDesign .container .hovDoYouDesign__photo .box {
+    
+        left: -7px;
+       
+    }.delighting .container .photos .img {
+        
+        transform: translateX(-17%);
   }
   @media(max-width:1350px){
      .container{
@@ -686,13 +778,50 @@ font-size: 18px;
       .content{
         width:1350px;   
     }
+   .hovDoYouDesign .container .hovDoYouDesign__photo img{
+    transform: translateX(-5.5%);
+   }
+   .hovDoYouDesign .container .hovDoYouDesign__photo .box {
+
+    left: -28px;
    
+}
+.delighting .container .photos .img {
+   
+    width: 886px;
+    height: 887px;
+    
   }
-  
+  .delighting .container .photos .img .photo1 img {
+    width: 586px;
+    height: 427px;
+}
+.delighting .container .photos .img .photo1 .plus {
+    top: -8px;
+    right: -49.5%;
+}
+  }
+} 
   @media(max-width:1250px){
     .container{
       width: 1150px;
      }
+     .hovDoYouDesign .container .hovDoYouDesign__photo img{
+        transform: translateX(-12.5%);
+       }
+       .hovDoYouDesign .container .hovDoYouDesign__photo .box {
+    
+        left: -60px;
+       
+    }
+    .delighting .container .photos .img {
+     
+        transform: translateX(-28%);
+    }
+    .delighting .container .sercul {
+       
+        left: -34%;
+    }
      
    
  }
@@ -700,19 +829,118 @@ font-size: 18px;
     .container{
       width: 1050px;
      }
+     .hovDoYouDesign .container .hovDoYouDesign__photo img{
+        transform: translateX(-21.5%);
+       }
+       .hovDoYouDesign .container .hovDoYouDesign__photo .box {
+    
+        left: -101px;
+       
+    }
+    .hovDoYouDesign .container .hovDoYouDesign__text p {
+        width: 86%;
+    
+    }
+    .delighting .container .photos .img {
+   
+        width: 753px;
+        height: 754px;
+        
+      }
+      .delighting .container .photos .img .photo1 img {
+        width: 503px;
+        height: 322px;
+    }
+    .delighting .container .sercul {
+        left: -38%;
+        top: -24px;
+    }
+    .delighting .container .photos .img .photo1 .text p {
+       
+        font-size: 13px;
+        
+    }
+
    
  }
  @media(max-width:1050px){
     .container{
       width:950px;
      }
+     .hovDoYouDesign .container .hovDoYouDesign__photo .box {
+       display: none;
+    
    
  }
+ .hovDoYouDesign .container .hovDoYouDesign__photo {
+    margin: 0;
+}
+.hovDoYouDesign .container .hovDoYouDesign__photo .sercul {
+    width: 900px;
+    position: absolute;
+    z-index: -22;
+    right: 2px;
+    top: -173px;
+}
+.hovDoYouDesign .container .hovDoYouDesign__photo .sercul .line .sercul1 {
+   
+    width: 820px;
+    height: 820px;
+    
+}
+.hovDoYouDesign .container .hovDoYouDesign__text p {
+    width: 78%;
+}
+.hovDoYouDesign .container .hovDoYouDesign__photo img {
+    margin-top: -240px;
+}
+.hovDoYouDesign .container .hovDoYouDesign__photo .pler {
+    top: 29%;
+    left: 45%;
+   
+}
+.delighting .container .sercul {
+    display: none;
+}
+.delighting .container .photos {
+    width: 100%;
+}
+.delighting .container .photos .img {
+      width: 100%;
+    transform: none;
+    display: flex;
+    justify-content: space-between;
+}
+.delighting .container .photos .img .text {
+    width: 45%;
+    margin-left:0;
+}
+
+.delighting .container .photos .img .photo1 img {
+    width: 45%;
+    transform:none;
+   
+}
+.delighting .container .photos .img .photo1 {
+    position: relative;
+    width: 100%;
+}
+}
  @media(max-width:950px){
     .container{
       width: 850px;
      }
-   
+     .hovDoYouDesign .container .hovDoYouDesign__photo .sercul {
+      display: none;
+    }
+    .hovDoYouDesign .container .hovDoYouDesign__photo {
+        display: none;
+    }
+    .hovDoYouDesign .container .hovDoYouDesign__text {
+        width: 83%;
+        
+    }
+
  }
  @media(max-width:850px){
    
