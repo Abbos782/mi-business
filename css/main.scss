@@ -293,7 +293,7 @@ font-size: 18px;
                           width: 45%;
                            margin-left: 200px;
                             h2{
-                                width: 100%;
+                                width: 205%;
                                 color: #fff;
                                 font-size: 35px;
                                 font-weight:600;
@@ -301,7 +301,7 @@ font-size: 18px;
 
                             }
                             p{
-                                width: 100%;
+                                width: 200%;
                                 color:#ACCEFE ;
                                 margin: 30px 0;
                                 font-family: 'Poppins', sans-serif;
@@ -681,6 +681,9 @@ font-size: 18px;
         margin: 0;
         left: -22%;
     }
+    .content {
+        width: 1700px;
+    }
     
     }
 @media(max-width:1600px){
@@ -713,6 +716,9 @@ font-size: 18px;
         position: relative;
         margin: 0;
         left: -22%;
+    }
+    .content {
+        width: 1600px;
     }
     
      }
@@ -750,7 +756,9 @@ font-size: 18px;
         right: -43.5%;
     }
    
-     
+    .content {
+        width: 1500px;
+    }
  
  }
  @media(max-width:1400px){
@@ -771,6 +779,10 @@ font-size: 18px;
         
         transform: translateX(-17%);
   }
+  .content {
+    width: 1400px;
+}
+}
   @media(max-width:1350px){
      .container{
        width: 1250px;
@@ -801,7 +813,9 @@ font-size: 18px;
     right: -49.5%;
 }
   }
-} 
+  .content {
+    width: 1350px;
+}
   @media(max-width:1250px){
     .container{
       width: 1150px;
@@ -822,7 +836,13 @@ font-size: 18px;
        
         left: -34%;
     }
-     
+    .content {
+        width: 1250px;
+    }
+    .footer .container .footer__head .list {
+        width: 70%;
+        
+    }
    
  }
  @media(max-width:1150px){
@@ -860,18 +880,34 @@ font-size: 18px;
         font-size: 13px;
         
     }
-
+    .content {
+        width: 1150px;
+    }
+    .footer .container .footer__head .list {
+        width: 60%;
+        
+    }
    
  }
  @media(max-width:1050px){
     .container{
       width:950px;
      }
+     .delighting .container .photos .img .text h2 {
+        width: 105%;
+     }
+     .delighting .container .photos .img .text p {
+        width: 105%;
+     }
      .hovDoYouDesign .container .hovDoYouDesign__photo .box {
        display: none;
     
    
  }
+ .expertises .container .boxs .box img {
+    margin: 30px 0;
+    width: 100%;
+}
  .hovDoYouDesign .container .hovDoYouDesign__photo {
     margin: 0;
 }
@@ -945,6 +981,13 @@ font-size: 18px;
     position: relative;
     width: 100%;
 }
+.content {
+    width: 1050px;
+}
+.footer .container .footer__head .list {
+    width: 60%;
+    
+}
 }
  @media(max-width:950px){
     .container{
@@ -959,6 +1002,9 @@ font-size: 18px;
     .hovDoYouDesign .container .hovDoYouDesign__text {
         width: 83%;
         
+    }
+    .content {
+        width: 950px;
     }
 
  }
@@ -981,21 +1027,39 @@ font-size: 18px;
        }
     }
    }
-   
+   .content {
+    width: 850px;
+}
+
+
  }
  @media(max-width:750px){
     .container{
       width: 650px;
      }
+     .expertises .container .boxs {
+         display: block;
+         
+     }
+     .expertises .container .boxs .box{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+     .expertises .container .boxs .box img {
+        width: 90%;
+    }
      .delighting .container .photos .img {
         display: block;
         justify-content: column;
     }
      .delighting .container .photos .img .text {
+         margin: 0 auto;
         width: 90%;
         display: block;
         justify-content:column;
         text-align: center;
+        padding-top: 30px;
        
     } 
     .delighting .container .photos .img .photo1 .plus  img {
@@ -1005,7 +1069,19 @@ font-size: 18px;
     }
     .delighting .container .photos .img .photo1 {
        text-align: center;
-        width: 100%;
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .content {
+        width: 750px;
+    }
+    .footer .container .footer__head .tarmoq {
+        width: 12%;
+     
+        display: block;
+        justify-content: column;
+        margin-right: 5px;
+        
     }
    
  }
@@ -1026,5 +1102,9 @@ font-size: 18px;
      .list{
          display: none;
      }
-   
+     .content {
+        width: 650px;
+    }
+
  }
+ 
