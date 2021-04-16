@@ -614,6 +614,10 @@
   background-color: #1267FE;
 }
 
+.footer {
+  margin: 0 auto;
+}
+
 .footer .container .footer__head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -678,7 +682,6 @@
 
 .footer .footer__bottom {
   background-color: #0F1120;
-  margin: 30px 0;
 }
 
 .footer .footer__bottom .container {
@@ -713,6 +716,16 @@
 @media (max-width: 1900px) {
   .container {
     width: 1800px;
+  }
+  .delighting .container .sercul {
+    position: relative;
+    margin: 0;
+    left: -16%;
+  }
+  .delighting .container .photos .img .photo1 .plus {
+    top: -8px;
+    right: -49.5%;
+    z-index: 77;
   }
 }
 
@@ -766,7 +779,9 @@
     left: -22%;
   }
   .content {
+    margin: 0 auto;
     width: 1700px;
+    text-align: center;
   }
 }
 

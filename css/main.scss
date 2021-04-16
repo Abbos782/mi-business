@@ -541,6 +541,7 @@ font-size: 18px;
     }
 }
 .footer{
+    margin: 0 auto;
     .container{
         .footer__head{
             display: flex;
@@ -590,7 +591,7 @@ font-size: 18px;
     }
     .footer__bottom{
         background-color: #0F1120;
-        margin: 30px 0;
+        // margin: 30px 0;
        .container{
               display: flex;
               justify-content: space-between;
@@ -622,7 +623,17 @@ font-size: 18px;
     .container{
         width: 1800px;
     }
-
+    .delighting .container .sercul {
+        position: relative;
+        margin: 0;
+        left: -16%;
+    }
+    .delighting .container .photos .img .photo1 .plus {
+     
+        top: -8px;
+        right: -49.5%;
+        z-index: 77;
+    }
     
     }
    
@@ -682,7 +693,10 @@ font-size: 18px;
         left: -22%;
     }
     .content {
+        margin: 0 auto;
         width: 1700px;
+       
+        text-align: center;
     }
     
     }
